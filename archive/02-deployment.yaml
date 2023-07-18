@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: game2048
-          image: "714546234903.dkr.ecr.ap-northeast-2.amazonaws.com/kepler2048:latest"
+          image: "714546234903.dkr.ecr.ap-northeast-2.amazonaws.com/kepler2048:1.1"
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
